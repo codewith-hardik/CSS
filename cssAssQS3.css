@@ -1,0 +1,70 @@
+/* Practice QS 1 */
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+}
+#outer:hover{
+    background-color: brown;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+
+/* Practice QS 2 */
+#pq2div{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+    margin: 0 auto;
+    transition: margin-top 1s ease-in-out 0.5s;
+}
+#pq2div:hover{
+    margin-top: 200px;
+}
+/* Practice QS 3 */
+.cercal{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: inline-block;
+    transition-duration: 0s;
+    transition-delay: 0s;
+    margin: 0 auto;
+    /* margin-top:  50px; */
+
+}
+.cercal:hover{
+    border-radius: 0%;
+    background-color:crimson;
+
+
+}
+section:hover{
+        border-radius: 0%;
+        background-color: blueviolet;
+
+}
+/* Practice QS 4 */
+li{
+    /* display: inline-block; */
+}
+/* Practice QS 5 */

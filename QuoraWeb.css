@@ -1,0 +1,113 @@
+#facebookheading{
+    font-family:'Courier New', Courier, monospace;
+    color: #1b74e4;
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+.userbtn{
+    background-color: aqua;
+}
+
+/* Quora */
+
+.Quora{
+    color: brown;
+}
+#login{
+    background-color: white;
+    color: black;
+}
+#signup{
+    background-color: brown;
+    color: black;
+}
+
+nav a {
+    color: pink;
+    text-decoration: none;
+}
+nav a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+p > a {
+    background-color: aqua;
+    text-decoration: none;
+    color:brown;
+
+}
+p > a:hover {
+    background-color:orange;
+    text-decoration:underline;
+    color:black;
+
+}
+p:hover{
+    color:darkmagenta;
+    font-weight: 900;
+}
+
+.upvote{
+    background-color: chartreuse;
+    color: black;
+}
+.answer{
+    background-color: deepskyblue;
+    color: blanchedalmond;
+}
+h3 {
+    color: brown;
+}
+h3:hover {
+    color:blue;
+    text-decoration:underline;
+}
+h3:active {
+    color:deeppink;
+    
+
+}
+input[type="text"] {
+    background-color: beige;
+    color: deeppink;
+}
+input[type="password"]{
+    background-color: antiquewhite;
+    color: crimson;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+button:active{
+    color:blueviolet;
+    background-color:cadetblue;
+}
+p::selection{
+    background-color: lawngreen;
+}
+div:nth-last-of-type(2n){
+    background-color: burlywood;
+}
+
+span{
+    color:darkgreen;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+input[type="redio"]:checked + label {
+    color: crimson;
+    font-weight: 900;
+    text-decoration: underline;
+    font-size: larger;
+}
+.Quora::first-letter{
+    color: darkorange;
+}
+
+/* #lorem{
+    color: black !important;
+} */

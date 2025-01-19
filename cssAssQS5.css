@@ -1,0 +1,82 @@
+#containar{
+    height: 300px;
+    width: 90%;
+    border: 2px black solid;
+    background-color: aqua;
+    margin: 10px auto;
+    display: flex;
+    /* flex-direction:column; */
+    /* justify-content:space-evenly; */
+    flex-wrap:wrap;
+    /* justify-content: space-around; */
+    /* justify-content: flex-start; */
+    /* align-content:space-around; */
+    align-self: center;
+}
+#green{
+    /* align-self: flex-end; */
+    /* flex-basis: 50px; */
+    flex-grow: 3;
+    /* flex-shrink: 1; */
+}
+#red{
+    flex-basis: 100px;
+    flex-grow: 2;
+    /* flex-shrink: 2; */
+}
+h1{
+    text-align: center;
+}
+#containar div{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    /* font-size: 1.5em; */
+}
+
+
+/* cssAssQs 1 */
+#containar2{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.alfabet{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 50px;
+    text-align: center;
+}
+/* CSS Ass. Qs 2 */
+#nev{
+    height: 50px;
+    width: 900px;
+    background-color: burlywood;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    /* align-content: center; */
+}
+.box{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 5px;
+    border-radius: 10px;
+    line-height: 50px;
+  
+}
